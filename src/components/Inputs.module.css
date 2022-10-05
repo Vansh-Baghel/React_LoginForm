@@ -1,0 +1,20 @@
+.form{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.inputDiv{
+    display: flex;
+    border: 2px solid rgba(189, 186, 186, 0.873);
+    padding: 1.4rem;
+    margin: 2rem;
+    box-shadow: 1px 7px 25px -10px black;
+}
+
+input{
+    border: 0;
+    font-size: inherit;
+    outline: none;
+}

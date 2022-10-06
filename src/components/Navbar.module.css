@@ -49,6 +49,14 @@ li{
     font-size: 0.9rem;
 }
 
+.a:hover{
+    color: blue;
+    text-shadow: 0 3px 6px rgb(48 41 255 / 50%);
+
+    outline: none;
+    border: none;
+}
+
 .img{
     height: 60%;
     border-radius: 50%;

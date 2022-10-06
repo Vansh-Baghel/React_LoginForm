@@ -8,27 +8,27 @@ const Inputs = (props) => {
     return (
         <form className={classes.form}>
             <div className={classes.inputDiv}>
-            <BsPersonCircle color="black"/>
+            <BsPersonCircle className={classes.svg}/>
             <input type="text" placeholder="First Name"></input>
             </div>
             <div className={classes.inputDiv}>
-            <BsPersonCircle color="black" />
+            <BsPersonCircle className={classes.svg} />
             <input type="text" placeholder="Last Name"></input>
             </div>
             <div className={classes.inputDiv}>
-            <BsTelephoneFill color="black" />
+            <BsTelephoneFill className={classes.svg} />
             <input type="number" placeholder="Phone Number"></input>
             </div>
             <div className={classes.inputDiv}>
-            <MdEmail color="black" />
+            <MdEmail className={classes.svg} />
             <input type="email" placeholder="Email"></input>
             </div>
             <div className={classes.inputDiv}>
-            <RiLockPasswordFill color="black" />
+            <RiLockPasswordFill className={classes.svg} />
             <input type="password" placeholder="Password"></input>
             </div>
             <div className={classes.inputDiv}>
-            <RiLockPasswordFill color="black" />
+            <RiLockPasswordFill className={classes.svg} />
             <input type="password" placeholder="Confirm Password"></input>
             </div>
         </form>

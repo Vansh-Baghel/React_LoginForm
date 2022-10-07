@@ -5,16 +5,12 @@ import Inputs from './components/Inputs';
 import Navbar from './components/Navbar';
 
 function App() {
-  const data = (fName , lName , email) => {
-    alert(fName + " " + lName + " " + email);
-  }
-
   return (
     <div>
       <Navbar />
       <Heading />
     <Form>
-      <Inputs onSubmitInApp={data} />
+      <Inputs />
     </Form>
     <Footer />
     </div>

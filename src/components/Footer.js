@@ -8,7 +8,7 @@ const Footer = (props) => {
     <div className={classes.container}>
       <div className={classes.brand}>
           <img src={img} alt="Contactlogo" className={classes.img}></img>
-          <h3 className={classes.heading}> Contact Experts </h3>
+          <h3 className={classes.heading}> Login Experts </h3>
           {/* Gave p tag 'a' class to get the italic text and fonts. */}
           <p className={classes.a}> Just one click away!</p>
     </div>
